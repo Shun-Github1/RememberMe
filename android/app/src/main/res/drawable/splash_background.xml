@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RememberMe splash screen background matching Flutter app -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background matching Flutter app -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/splash_background"
+                android:endColor="@color/splash_gradient_end"
+                android:angle="135" />
+        </shape>
+    </item>
+    
+    <!-- App logo centered -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/launcher_icon" />
+    </item>
+</layer-list>

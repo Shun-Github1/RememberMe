@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen background colors for dark theme - same as light theme for consistency -->
+    <color name="splash_background">#005EB8</color>
+    <color name="splash_gradient_end">#0072CE</color>
+    <color name="splash_logo_tint">#FFFFFF</color>
+</resources>
