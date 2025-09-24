@@ -65,11 +65,10 @@
 	<key>NSHealthUpdateUsageDescription</key>
 	<string>This app needs to update health data to record your activities and progress in your health profile.</string>
 	
-	<!-- Background modes for notifications and health tracking -->
+	<!-- Background modes for notifications -->
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>background-processing</string>
-		<string>background-fetch</string>
+		<string>remote-notification</string>
 	</array>
 	
 	<!-- Optional HealthKit integration - not required for basic functionality -->
